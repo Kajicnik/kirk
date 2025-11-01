@@ -10,14 +10,12 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: Arial, sans-serif;
             background: white;
             height: 100vh;
             overflow: hidden;
         }
-
         .text-content {
             height: 100vh;
             overflow-y: auto;
@@ -28,14 +26,16 @@
             line-height: 1.4;
             color: #333;
         }
-
+        .html-content {
+            height: 100vh;
+            overflow-y: auto;
+        }
         .loading {
             display: none;
             text-align: center;
             padding: 20px;
             color: #666;
         }
-
         .error {
             color: #d00;
             padding: 10px;
@@ -47,16 +47,14 @@
 <body>
     <div class="loading" id="loading">Loading...</div>
     <div id="contentDisplay"></div>
-
     <script>
         // Check URL parameters on page load
         window.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
             const urlParam = urlParams.get('url');
             const textParam = urlParams.get('text');
-
             if (textParam) {
-                displayText(decodeURIComponent(textParam));
+                displayContent(decodeURIComponent(textParam));
             } else if (urlParam) {
                 loadTextFromUrl(urlParam);
             }
@@ -65,30 +63,29 @@
         async function loadTextFromUrl(url) {
             const loading = document.getElementById('loading');
             const contentDisplay = document.getElementById('contentDisplay');
-
+            
             if (!url) {
                 showError('No URL provided');
                 return;
             }
-
+            
             // If it's just a filename, treat it as a local file
             if (!url.startsWith('http') && !url.startsWith('/')) {
                 url = './' + url;
             }
-
+            
             loading.style.display = 'block';
             contentDisplay.innerHTML = '';
-
+            
             try {
                 const response = await fetch(url);
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-
+                
                 const text = await response.text();
-                displayText(text);
-
+                displayContent(text);
             } catch (error) {
                 console.error('Error loading text:', error);
                 showError(`Failed to load content: ${error.message}`);
@@ -97,9 +94,24 @@
             }
         }
 
-        function displayText(text) {
+        function isHtml(text) {
+            // Check if the content looks like HTML
+            const trimmed = text.trim();
+            return trimmed.startsWith('<!DOCTYPE html') || 
+                   trimmed.startsWith('<html') ||
+                   (trimmed.startsWith('<') && /<html[\s>]/i.test(text));
+        }
+
+        function displayContent(text) {
             const contentDisplay = document.getElementById('contentDisplay');
-            contentDisplay.innerHTML = `<div class="text-content">${escapeHtml(text)}</div>`;
+            
+            if (isHtml(text)) {
+                // Display as rendered HTML
+                contentDisplay.innerHTML = `<div class="html-content">${text}</div>`;
+            } else {
+                // Display as escaped plain text
+                contentDisplay.innerHTML = `<div class="text-content">${escapeHtml(text)}</div>`;
+            }
         }
 
         function showError(message) {
