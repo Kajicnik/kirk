@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrnutí opakujících se témat - Charlie Kirk</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .metadata {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        .intro-box {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .highlight-box {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .theme-item {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .theme-item h3 {
+            margin-top: 0;
+            border-left: none;
+            padding-left: 0;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        .summary-section {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 2px solid #3498db;
+        }
+        
+        .number-badge {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shrnutí opakujících se témat napříč kategoriemi</h1>
+        
+        <div class="metadata">
+            <strong>Analýza videí:</strong> Charlie Kirk YouTube |
+            <strong>Počet kategorií:</strong> 5 |
+            <strong>Datum:</strong> 1. 11. 2025
+        </div>
+        
+        <div class="intro-box">
+            <p><strong>Přehled analýzy:</strong> Toto shrnutí identifikuje klíčová témata, která se opakují napříč všemi pěti kategoriemi YouTube videí Charlese Kirka: Občanská angažovanost, Politické komentáře a kritika, Kulturní a sociální otázky, Vláda a politické otázky, a Osobní obsah.</p>
+        </div>
+
+        <h2>Nejvýraznější opakující se témata</h2>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">1</span>Donald Trump jako centrální postava</h3>
+            <ul>
+                <li>Konzistentní podpora Trumpa ve všech kategoriích</li>
+                <li>Prezentován jako <strong>"spasitel Ameriky"</strong> a jediný schopný vůdce</li>
+                <li>Obrana proti kritice a obviněním z politické perzekuce</li>
+                <li>Důraz na jeho "mužskou energii" a rozhodnost</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">2</span>Kritika Demokratů a levice</h3>
+            <ul>
+                <li>Kamala Harrisová, Joe Biden a Demokratická strana jako hlavní terče</li>
+                <li>Označování jako <strong>"radikální levičáci"</strong>, "socialisté", "marxisté"</li>
+                <li>Obviňování z ekonomických problémů, zejména inflace</li>
+                <li>Prezentace jako hrozby pro americké hodnoty</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">3</span>"Kulturní válka"</h3>
+            <ul>
+                <li><strong>"Wokeness" a politická korektnost</strong> jako opakující se hrozba</li>
+                <li>Kritika DEI (Diversity, Equity, Inclusion) iniciativ</li>
+                <li>Boj proti "cancel culture" a vnímané cenzuře</li>
+                <li>Obrana tradičních hodnot proti modernismu</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">4</span>Tradiční hodnoty vs. moderní liberalismus</h3>
+            <ul>
+                <li>Důraz na <strong>rodinu, víru a vlastenectví</strong></li>
+                <li>Kritika "morálního úpadku" levice</li>
+                <li>Potraty jako morální otázka</li>
+                <li>Křesťanství jako základ společnosti</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">5</span>Mentalita "My vs. Oni"</h3>
+            <ul>
+                <li>Jasné rozdělení mezi konzervativci a liberály</li>
+                <li>Konzervativci jako patrioti, liberálové jako nepřátelé Ameriky</li>
+                <li>Vytváření pocitu <strong>existenční hrozby</strong></li>
+                <li>Morální nadřazenost konzervativních hodnot</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">6</span>Imigrace a ochrana hranic</h3>
+            <ul>
+                <li>Prezentace jako <strong>"krize"</strong> nebo "invaze"</li>
+                <li>Kritika otevřených hranic</li>
+                <li>Spojování s národní bezpečností a ekonomickými problémy</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">7</span>Nedůvěra k institucím</h3>
+            <ul>
+                <li><strong>Mainstreamová média</strong> - obviňování z předpojatosti</li>
+                <li><strong>Univerzity</strong> - kritika jako center liberální indoktrinace</li>
+                <li><strong>"Hluboký stát"</strong> - představa zkorumpované byrokracie</li>
+                <li>Anti-establishmentové nálady</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">8</span>Svoboda slova</h3>
+            <ul>
+                <li>Obhajoba práva na konzervativní názory</li>
+                <li>Kritika vnímané cenzury</li>
+                <li>Prezentace konzervativců jako umlčovaných</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">9</span>Ekonomický nacionalismus</h3>
+            <ul>
+                <li><strong>"Amerika na prvním místě"</strong></li>
+                <li>Kritika zahraniční pomoci</li>
+                <li>Důraz na americké pracovní místa a zájmy</li>
+            </ul>
+        </div>
+
+        <div class="theme-item">
+            <h3><span class="number-badge">10</span>Mobilizace mladých voličů</h3>
+            <ul>
+                <li>Cílení na univerzitní kampusy</li>
+                <li>Prezentace konzervativních hodnot jako cesty k úspěchu</li>
+                <li>Důraz na osobní odpovědnost a sebedisciplínu</li>
+            </ul>
+        </div>
+
+        <h2>Klíčové rétorické strategie</h2>
+        
+        <div class="highlight-box">
+            <ul>
+                <li><strong>Emocionální apely</strong> - využívání strachu, hněvu a vlastenectví</li>
+                <li><strong>Zjednodušení</strong> složitých otázek na srozumitelné slogany</li>
+                <li><strong>Existenční rámování</strong> - "záchrana Ameriky" jako ústřední téma</li>
+                <li><strong>Hanlivá nálepkování</strong> oponentů</li>
+                <li><strong>Hyperbola a zveličování</strong> pro zdůraznění naléhavosti</li>
+                <li><strong>Anedoktální důkazy</strong> a osobní příběhy</li>
+                <li><strong>Opakování</strong> klíčových sdělení</li>
+                <li><strong>Přímé oslovování</strong> publika pro vytvoření spojení</li>
+            </ul>
+        </div>
+
+        <h2>Cílové publikum</h2>
+        
+        <ul>
+            <li><strong>Mladí konzervativci</strong> - primární cílová skupina</li>
+            <li><strong>Příznivci Donalda Trumpa</strong> - konzistentní zaměření</li>
+            <li><strong>Jednotlivci skeptičtí vůči institucím</strong> - ti, kdo nedůvěřují médiím a vládě</li>
+            <li><strong>Náboženští konzervativci</strong> - důraz na křesťanské hodnoty</li>
+            <li><strong>Lidé obávající se kulturních změn</strong> - obavy z imigrace a "wokeness"</li>
+        </ul>
+
+        <div class="summary-section">
+            <h2 style="margin-top: 0;">Závěrečné shrnutí</h2>
+            <p><strong>Charlie Kirk konzistentně buduje narativ Ameriky v existenční krizi</strong>, kterou může zachránit pouze Donald Trump a konzervativní hnutí. Využívá jasného rozdělení společnosti, emocionálních apelů a anti-establishmentových nálad k mobilizaci především mladého konzervativního publika.</p>
+            
+            <p>Hlavní sdělení je, že:</p>
+            <ul>
+                <li>Amerika je ohrožena <strong>liberální politikou</strong> a <strong>"woke" kulturou</strong></li>
+                <li><strong>Donald Trump</strong> je jediný schopný vůdce, který může zemi zachránit</li>
+                <li><strong>Tradiční americké hodnoty</strong> (rodina, víra, vlastenectví) jsou napadány a musí být bráněny</li>
+                <li>Mladí lidé mají <strong>morální povinnost</strong> politicky se angažovat a hlasovat pro konzervativní kandidáty</li>
+                <li>Instituce jako média, univerzity a "hluboký stát" jsou <strong>nepřátelské</strong> konzervativním hodnotám</li>
+            </ul>
+            
+            <p>Tento obsah je navržen tak, aby vytvořil pocit naléhavosti, rozdělení a mobilizace, s cílem přesvědčit a aktivizovat konzervativní voliče, zejména mladou generaci.</p>
+        </div>
+    </div>
+</body>
+</html>
